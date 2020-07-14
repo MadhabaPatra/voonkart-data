@@ -38,7 +38,10 @@ const onSubmit=event=>{
             })
            
         }
-    }).catch(console.log("sign in request failed"));
+    }).catch(err=>{
+    console.log("sign in request failed")
+    console.log(err)
+    });
 }
 const performRedirect=()=>{
     if(didRedirect){
