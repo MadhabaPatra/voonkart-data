@@ -1,0 +1,13 @@
+.btn-custom-color{
+    width: 30px !important;
+    height: 30px !important;
+    border: 1px solid transparent !important;
+}
+.color-active{
+border: 2px solid black !important;
+}
+ .size-active{
+    color: #fff !important;
+background: #222 !important;
+border: 1px solid transparent !important;
+}
